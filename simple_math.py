@@ -3,6 +3,26 @@ A collection of simple math operations
 """
 
 def simple_add(a,b):
+    """
+    Calculates the addition of two numbers: a and b
+
+    Parameters
+    ----------
+    a : first number
+    b : second number
+
+    Returns
+    -------
+    The result of the addition of a plus b
+
+    Examples
+    --------
+    >>> simple_add(1,2)
+    3
+    >>> simple_add(5,14)
+    19
+    
+    """
     return a+b
 
 def simple_sub(a,b):
