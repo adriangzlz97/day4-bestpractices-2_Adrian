@@ -26,6 +26,26 @@ def simple_add(a,b):
     return a+b
 
 def simple_sub(a,b):
+    """
+    Calculates subtraction of a minus b
+
+    Parameters
+    ----------
+    a : first number
+    b : second number
+
+    Returns
+    -------
+    The result of the subtraction of a minus b
+
+    Examples
+    --------
+    >>> simple_sub(1,2)
+    -1
+    >>> simple_sub(17,5)
+    12
+    
+    """
     return a-b
 
 def simple_mult(a,b):
